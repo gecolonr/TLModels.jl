@@ -9,8 +9,8 @@ using Test
 
 const PSY = PowerSystems
 
-impedance_csv = "../../../../TLModels/data/cable_data/dommel_data.csv"
-capacitance_csv = "../../../../TLModels/data/cable_data/dommel_data_C.csv"
+impedance_csv = "../data/cable_data/dommel_data.csv"
+capacitance_csv = "../data/cable_data/dommel_data_C.csv"
 
 M = 3
 z_km, y_km, z_km_ω, Z_c = get_line_parameters_from_data(impedance_csv, capacitance_csv, M)
@@ -28,7 +28,7 @@ line_params = LineModelParams(
     1.0
 )  
 
-file_name = "../../../../TLModels/data/json_data/9bus_VSM_SM_GFL_.json"
+file_name = "../data/json_data/9bus_VSM_SM_GFL_.json"
 
 sys = System(joinpath(pwd(), file_name));
 
