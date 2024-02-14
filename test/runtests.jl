@@ -6,7 +6,6 @@ using PowerSystems
 using Revise
 using Test
 
-
 const PSY = PowerSystems
 
 impedance_csv = "../data/cable_data/dommel_data.csv"
