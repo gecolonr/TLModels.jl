@@ -1,4 +1,4 @@
-# TLmodels
+# TLmodels.jl
 
 TLModels.jl (TLM) is a package extension for PowerSystems.jl (PSY). It extends PSY's modeling capabilities in two primary ways:
 1. Allows the use of measured real life transmission line impedance data.
